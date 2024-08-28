@@ -12,9 +12,8 @@ public class Exercise4 {
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();
         }
-        for (int i = 0; i < a.length; i++) {
-            Arrays.sort(a);
-        }
+        
+        Arrays.sort(a);
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
